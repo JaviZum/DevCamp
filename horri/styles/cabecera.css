@@ -1,0 +1,104 @@
+body 
+    {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background: black;
+    }
+
+header 
+    {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background: black;
+    }
+
+header > .header-left-column 
+    {
+    padding-left: 20px;
+    }
+
+header > .header-left-column > img
+    {
+    width: 200px;
+    }
+
+header > .header-center-column 
+    {
+    padding-top: 15px;
+    }
+
+header > .header-center-column > .links-wrapper > .nav-link > p 
+    {
+    position: absolute;
+    color: #f3e038;
+    margin-top: -23px;
+    }
+
+header > .header-center-column > .links-wrapper 
+    {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    }
+
+header > .header-center-column > .links-wrapper > .nav-link > a
+    {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    }
+
+
+header > .header-center-column > .links-wrapper > .nav-link > .spark 
+    {
+    color: rgb(121, 121, 121);
+    }
+
+
+header > .header-center-column > .links-wrapper > .nav-link > .fa-solid 
+    {
+    color: rgb(121,121,121);
+    margin-left: 5px;
+    }
+
+
+header > .header-right-column 
+    {
+    padding-right: 10px;
+    }
+
+header > .header-right-column > .btn 
+    {
+    cursor: pointer;
+    padding: 15px 25px;
+    border-radius: 4px;
+    background-color: #444;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    }
+
+
+
+header > .header-right-column > .btn > .fa-solid 
+    {
+    color: #3ecf71;
+    margin-left: 3px;
+    transition: 0.5s;
+    }
+
+
+
+header > .header-right-column > .fa-magnifying-glass 
+    {
+    cursor: pointer;
+    color: #444;
+    font-size: 2em;
+    margin: 15px;
+    transition: 0.5s;
+    }
